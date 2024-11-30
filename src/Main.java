@@ -19,17 +19,16 @@ public class Main {
             System.out.println("3. Given Number is positive or negative.");
             System.out.println("4. Largest number in a given 3 Numbers");
             System.out.println("5. Swap Two numbers");
+            System.out.println("6. Check Divisibility");
             int subchoice = scanner.nextInt();
             switch (subchoice)
             {
                 case 1: {
-                    EvenOdd ob = new EvenOdd();
-                    ob.logic();
+                    EvenOdd.logic();
                 } break;
 
                 case 2: {
-                    EvenOddSum ob = new EvenOddSum();
-                    ob.logic();
+                    EvenOddSum.logic();
                 } break;
 
                 case 3: {
@@ -38,14 +37,17 @@ public class Main {
                 }
 
                 case 4: {
-                    LargertOf3Numbers ob = new LargertOf3Numbers();
-                    ob.logic();
+                    LargertOf3Numbers.logic();
                     break;
                 }
 
                 case 5: {
-                    SwapTwoNumbers ob = new SwapTwoNumbers();
-                    ob.logic();
+                    SwapTwoNumbers.logic();
+                    break;
+                }
+
+                case 6:{
+                    IfNumberIsDivisibleByNumber.logic();
                     break;
                 }
 
