@@ -17,6 +17,7 @@ public class Main {
             System.out.println("1. Given Number is Even or Odd.");
             System.out.println("2. Sum of Even and Odd Numbers.");
             System.out.println("3. Given Number is positive or negative.");
+            System.out.println("4. Largest number in a given 3 Numbers");
             int subchoice = scanner.nextInt();
             switch (subchoice)
             {
@@ -32,6 +33,12 @@ public class Main {
 
                 case 3: {
                     PositiveNegativeNumber.logic();
+                    break;
+                }
+
+                case 4: {
+                    LargertOf3Numbers ob = new LargertOf3Numbers();
+                    ob.logic();
                     break;
                 }
 
