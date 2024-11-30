@@ -18,6 +18,7 @@ public class Main {
             System.out.println("2. Sum of Even and Odd Numbers.");
             System.out.println("3. Given Number is positive or negative.");
             System.out.println("4. Largest number in a given 3 Numbers");
+            System.out.println("5. Swap Two numbers");
             int subchoice = scanner.nextInt();
             switch (subchoice)
             {
@@ -42,6 +43,11 @@ public class Main {
                     break;
                 }
 
+                case 5: {
+                    SwapTwoNumbers ob = new SwapTwoNumbers();
+                    ob.logic();
+                    break;
+                }
 
                 default:
                     break;
