@@ -16,6 +16,7 @@ public class Main {
 
             System.out.println("1. Given Number is Even or Odd.");
             System.out.println("2. Sum of Even and Odd Numbers.");
+            System.out.println("3. Given Number is positive or negative.");
             int subchoice = scanner.nextInt();
             switch (subchoice)
             {
@@ -28,6 +29,11 @@ public class Main {
                     EvenOddSum ob = new EvenOddSum();
                     ob.logic();
                 } break;
+
+                case 3: {
+                    PositiveNegativeNumber.logic();
+                    break;
+                }
 
 
                 default:
