@@ -21,6 +21,7 @@ public class Main {
             System.out.println("5. Swap Two numbers");
             System.out.println("6. Check Divisibility");
             System.out.println("7. Integer Equality Check");
+            System.out.println("8. Sum of Digits in a number");
             System.out.println("0. Exit");
             int subchoice = scanner.nextInt();
             switch (subchoice)
@@ -55,6 +56,11 @@ public class Main {
 
                 case 7: {
                     IntegerEqualityCheck.logic();
+                    break;
+                }
+
+                case 8:{
+                    SumOfDigits.logic();
                     break;
                 }
 
