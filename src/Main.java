@@ -20,6 +20,8 @@ public class Main {
             System.out.println("4. Largest number in a given 3 Numbers");
             System.out.println("5. Swap Two numbers");
             System.out.println("6. Check Divisibility");
+            System.out.println("7. Integer Equality Check");
+            System.out.println("0. Exit");
             int subchoice = scanner.nextInt();
             switch (subchoice)
             {
@@ -49,6 +51,17 @@ public class Main {
                 case 6:{
                     IfNumberIsDivisibleByNumber.logic();
                     break;
+                }
+
+                case 7: {
+                    IntegerEqualityCheck.logic();
+                    break;
+                }
+
+
+
+                case 0: {
+                    System.exit(0);
                 }
 
                 default:
