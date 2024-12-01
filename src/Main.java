@@ -22,6 +22,7 @@ public class Main {
             System.out.println("6. Check Divisibility");
             System.out.println("7. Integer Equality Check");
             System.out.println("8. Sum of Digits in a number");
+            System.out.println("9. Sum of Digits using Recursion");
             System.out.println("0. Exit");
             int subchoice = scanner.nextInt();
             switch (subchoice)
@@ -61,6 +62,11 @@ public class Main {
 
                 case 8:{
                     SumOfDigits.logic();
+                    break;
+                }
+
+                case 9:{
+                    SumOfDigitsWithRecursion.logic();
                     break;
                 }
 
