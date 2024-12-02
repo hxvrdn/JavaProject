@@ -24,6 +24,8 @@ public class Main {
             System.out.println("8. Sum of Digits in a number");
             System.out.println("9. Sum of Digits using Recursion");
             System.out.println("10. Extract Digits From A Number");
+            System.out.println("11. Extract Digits From A Number And Increment by 1");
+
             System.out.println("0. Exit");
             int subchoice = scanner.nextInt();
             switch (subchoice)
@@ -73,6 +75,12 @@ public class Main {
 
                 case 10:{
                     ExtractDigitsFromANumber.logic();
+                    break;
+
+                }
+
+                case 11:{
+                    IncremenetEveryDigitOfInteger.logic();
                     break;
 
                 }
