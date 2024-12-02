@@ -17,14 +17,15 @@ public class Main {
             System.out.println("1. Given Number is Even or Odd.");
             System.out.println("2. Sum of Even and Odd Numbers.");
             System.out.println("3. Given Number is positive or negative.");
-            System.out.println("4. Largest number in a given 3 Numbers");
-            System.out.println("5. Swap Two numbers");
-            System.out.println("6. Check Divisibility");
-            System.out.println("7. Integer Equality Check");
-            System.out.println("8. Sum of Digits in a number");
-            System.out.println("9. Sum of Digits using Recursion");
-            System.out.println("10. Extract Digits From A Number");
-            System.out.println("11. Extract Digits From A Number And Increment by 1");
+            System.out.println("4. Largest number in a given 3 Numbers.");
+            System.out.println("5. Swap Two numbers.");
+            System.out.println("6. Check Divisibility.");
+            System.out.println("7. Integer Equality Check.");
+            System.out.println("8. Sum of Digits in a number.");
+            System.out.println("9. Sum of Digits using Recursion.");
+            System.out.println("10. Extract Digits From A Number.");
+            System.out.println("11. Extract Digits From A Number And Increment by 1.");
+            System.out.println("12. Arithmetic Operations.");
 
             System.out.println("0. Exit");
             int subchoice = scanner.nextInt();
@@ -85,7 +86,10 @@ public class Main {
 
                 }
 
-
+                case 12:{
+                    ArithmeticOperations.logic();
+                    break;
+                }
 
                 case 0: {
                     System.exit(0);
