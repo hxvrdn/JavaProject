@@ -26,6 +26,7 @@ public class Main {
             System.out.println("10. Extract Digits From A Number.");
             System.out.println("11. Extract Digits From A Number And Increment by 1.");
             System.out.println("12. Arithmetic Operations.");
+            System.out.println("13. Binary Equivalent of a number");
 
             System.out.println("0. Exit");
             int subchoice = scanner.nextInt();
@@ -88,6 +89,11 @@ public class Main {
 
                 case 12:{
                     ArithmeticOperations.logic();
+                    break;
+                }
+
+                case 13:{
+                    BinaryEquivalentofANumber.logic();
                     break;
                 }
 
