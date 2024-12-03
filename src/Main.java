@@ -31,6 +31,7 @@ public class Main {
             System.out.println("14. Multiplication Table");
             System.out.println("15. Given Character is Vowel or Consonant.");
             System.out.println("16. Given Alphabets are Uppercase or Lowercase or Digits");
+            System.out.println("17. Height Categorization");
 
             System.out.println("0. Exit");
             int subchoice = scanner.nextInt();
@@ -112,6 +113,10 @@ public class Main {
 
                 case 16:
                     AlphabetsUppercaseorLowercaseorDigits.logic();
+                    break;
+
+                case 17:
+                    HeightCAtegorization.logic();
                     break;
 
                 case 0: {
