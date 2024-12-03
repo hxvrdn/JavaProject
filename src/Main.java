@@ -28,6 +28,7 @@ public class Main {
             System.out.println("12. Arithmetic Operations.");
             System.out.println("13. Binary Equivalent of a number");
             System.out.println("14. Multiplication Table");
+            System.out.println("15. Given Character is Vowel or Consonant.");
 
             System.out.println("0. Exit");
             int subchoice = scanner.nextInt();
@@ -102,6 +103,10 @@ public class Main {
                     MultiplicationTable.logic();
                     break;
                 }
+
+                case 15:
+                    GivenCharacterisVowelorConsonant.logic();
+                    break;
 
                 case 0: {
                     System.exit(0);
