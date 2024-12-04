@@ -2,6 +2,8 @@ import java.io.Console;
 import java.io.IOException;
 import java.lang.ref.Cleaner;
 import java.util.Scanner;
+
+import JavaProgramsOnNumbers.PrimeNumberInGivenRange;
 import SimpleJavaPrograms.*;
 
 
@@ -10,6 +12,7 @@ public class Main {
     System.out.println("Welcome to Java");
     System.out.println("Select the Scope of programming: ");
     System.out.println("1. Simple programs");
+    System.out.println("2. Java Number programs");
     Scanner scanner = new Scanner(System.in);
     int choice =  scanner.nextInt();
     switch (choice) {
@@ -33,9 +36,10 @@ public class Main {
             System.out.println("16. Given Alphabets are Uppercase or Lowercase or Digits");
             System.out.println("17. Height Categorization");
 
+
             System.out.println("0. Exit");
-            int subchoice = scanner.nextInt();
-            switch (subchoice)
+            int subchoice1 = scanner.nextInt();
+            switch (subchoice1)
             {
                 case 1: {
                     EvenOdd.logic();
@@ -128,7 +132,30 @@ public class Main {
 
             }
 
+        case 2:
+            System.out.println("1. Print Prime Numbers in a range. ");
+            Scanner sc = new Scanner(System.in);
+            int subchoice2 = sc.nextInt();
+            switch (subchoice2) {
+
+                case 1:
+                    PrimeNumberInGivenRange.logic();
+                    break;
+
+
+            }
             break;
+
+
+
+        default:
+            break;
+        }
+
+
+
+
+
     }
-    }
+
 }
