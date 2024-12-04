@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.lang.ref.Cleaner;
 import java.util.Scanner;
 
+import JavaProgramsOnNumbers.CheckArmstrongNumber;
 import JavaProgramsOnNumbers.CheckPerfectNumber;
 import JavaProgramsOnNumbers.PrimeNumberInGivenRange;
 import SimpleJavaPrograms.*;
@@ -136,6 +137,7 @@ public class Main {
         case 2:
             System.out.println("1. Print Prime Numbers in a range. ");
             System.out.println("2. Check if Number is Perfect");
+            System.out.println("3. Check if Number is Armstrong");
             Scanner sc = new Scanner(System.in);
             int subchoice2 = sc.nextInt();
             switch (subchoice2) {
@@ -145,6 +147,9 @@ public class Main {
                     break;
                 case 2:
                     CheckPerfectNumber.logic();
+                    break;
+                case 3:
+                    CheckArmstrongNumber.logic();
                     break;
 
             }
