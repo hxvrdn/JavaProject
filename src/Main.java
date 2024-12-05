@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.lang.ref.Cleaner;
 import java.util.Scanner;
 
+import JavaProgramsOnNumbers.ArmstronBetween1and1000;
 import JavaProgramsOnNumbers.CheckArmstrongNumber;
 import JavaProgramsOnNumbers.CheckPerfectNumber;
 import JavaProgramsOnNumbers.PrimeNumberInGivenRange;
@@ -138,6 +139,7 @@ public class Main {
             System.out.println("1. Print Prime Numbers in a range. ");
             System.out.println("2. Check if Number is Perfect");
             System.out.println("3. Check if Number is Armstrong");
+            System.out.println("4. Armstrong numbers Between 1 and 1000");
             Scanner sc = new Scanner(System.in);
             int subchoice2 = sc.nextInt();
             switch (subchoice2) {
@@ -150,6 +152,13 @@ public class Main {
                     break;
                 case 3:
                     CheckArmstrongNumber.logic();
+                    break;
+
+                case 4:
+                    ArmstronBetween1and1000.logic();
+                    break;
+
+                default:
                     break;
 
             }
