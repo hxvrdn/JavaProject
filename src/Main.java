@@ -139,6 +139,7 @@ public class Main {
             System.out.println("4. Armstrong numbers Between 1 and 1000");
             System.out.println("5. Program to reverse Number.");
             System.out.println("6. Program to check pallindrome");
+            System.out.println("7. Program to Print natural numbers.");
             Scanner sc = new Scanner(System.in);
             int subchoice2 = sc.nextInt();
             switch (subchoice2) {
@@ -164,7 +165,9 @@ public class Main {
                 case 6:
                     PallindromeCheck.logic();
                     break;
-
+                case 7:
+                    FirstNnaturalnumbers.logic();
+                    break;
 
                 default:
                     break;
