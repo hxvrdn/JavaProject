@@ -138,6 +138,7 @@ public class Main {
             System.out.println("3. Check if Number is Armstrong");
             System.out.println("4. Armstrong numbers Between 1 and 1000");
             System.out.println("5. Program to reverse Number.");
+            System.out.println("6. Program to check pallindrome");
             Scanner sc = new Scanner(System.in);
             int subchoice2 = sc.nextInt();
             switch (subchoice2) {
@@ -159,6 +160,11 @@ public class Main {
                 case 5:
                     ProgramToReverseNumbe.logic();
                     break;
+
+                case 6:
+                    PallindromeCheck.logic();
+                    break;
+
 
                 default:
                     break;
