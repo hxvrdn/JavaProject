@@ -3,10 +3,7 @@ import java.io.IOException;
 import java.lang.ref.Cleaner;
 import java.util.Scanner;
 
-import JavaProgramsOnNumbers.ArmstronBetween1and1000;
-import JavaProgramsOnNumbers.CheckArmstrongNumber;
-import JavaProgramsOnNumbers.CheckPerfectNumber;
-import JavaProgramsOnNumbers.PrimeNumberInGivenRange;
+import JavaProgramsOnNumbers.*;
 import SimpleJavaPrograms.*;
 
 
@@ -140,6 +137,7 @@ public class Main {
             System.out.println("2. Check if Number is Perfect");
             System.out.println("3. Check if Number is Armstrong");
             System.out.println("4. Armstrong numbers Between 1 and 1000");
+            System.out.println("5. Program to reverse Number.");
             Scanner sc = new Scanner(System.in);
             int subchoice2 = sc.nextInt();
             switch (subchoice2) {
@@ -156,6 +154,10 @@ public class Main {
 
                 case 4:
                     ArmstronBetween1and1000.logic();
+                    break;
+
+                case 5:
+                    ProgramToReverseNumbe.logic();
                     break;
 
                 default:
