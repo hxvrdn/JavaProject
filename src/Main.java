@@ -140,6 +140,7 @@ public class Main {
             System.out.println("5. Program to reverse Number.");
             System.out.println("6. Program to check pallindrome");
             System.out.println("7. Program to Print natural numbers.");
+            System.out.println("8. Sum of N numbers using Recursion");
             Scanner sc = new Scanner(System.in);
             int subchoice2 = sc.nextInt();
             switch (subchoice2) {
@@ -167,6 +168,10 @@ public class Main {
                     break;
                 case 7:
                     FirstNnaturalnumbers.logic();
+                    break;
+
+                case 8:
+                    SumOf1stNnaturalUsingrecursion.logic();
                     break;
 
                 default:
